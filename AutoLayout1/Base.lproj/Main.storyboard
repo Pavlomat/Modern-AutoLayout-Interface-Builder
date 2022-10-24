@@ -160,22 +160,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zFs-Fi-7eI">
-                                <rect key="frame" x="-20" y="103" width="691" height="139.5"/>
+                                <rect key="frame" x="20" y="88" width="374" height="725"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nQr-fG-FeW">
-                                        <rect key="frame" x="20" y="20" width="651" height="99.5"/>
+                                        <rect key="frame" x="8" y="8" width="374" height="709"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="626-3A-AZe">
                                                 <rect key="frame" x="8" y="8" width="358" height="80"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apps that support Dynamic Type will adjust to your preferred reading size below." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0we-gO-grM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="358" height="41"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ehH-Oc-0a6">
-                                                        <rect key="frame" x="0.0" y="49" width="358" height="31"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="358" height="31"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Larger Accessibility Sizes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNa-PF-h7N">
                                                                 <rect key="frame" x="0.0" y="0.0" width="301" height="31"/>
@@ -188,6 +182,12 @@
                                                             </switch>
                                                         </subviews>
                                                     </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apps that support Dynamic Type will adjust to your preferred reading size below." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0we-gO-grM">
+                                                        <rect key="frame" x="0.0" y="39" width="358" height="41"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
@@ -200,7 +200,11 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="nQr-fG-FeW" secondAttribute="trailing" id="EK5-4c-Ufn"/>
                                     <constraint firstItem="nQr-fG-FeW" firstAttribute="width" secondItem="zFs-Fi-7eI" secondAttribute="width" id="FeQ-S5-nLr"/>
+                                    <constraint firstItem="nQr-fG-FeW" firstAttribute="top" secondItem="zFs-Fi-7eI" secondAttribute="topMargin" id="pX0-aW-VXp"/>
+                                    <constraint firstItem="nQr-fG-FeW" firstAttribute="leading" secondItem="zFs-Fi-7eI" secondAttribute="leadingMargin" id="pli-Sd-M5L"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="nQr-fG-FeW" secondAttribute="bottom" id="wf4-Ax-jzn"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -263,6 +267,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Abu-Vi-78t" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kEH-Fa-PUC">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
