@@ -13,6 +13,7 @@
 		BAD5976528FD42A300E2283A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD5976328FD42A300E2283A /* Main.storyboard */; };
 		BAD5976728FD42A500E2283A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD5976628FD42A500E2283A /* Assets.xcassets */; };
 		BAD5976A28FD42A500E2283A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD5976828FD42A500E2283A /* LaunchScreen.storyboard */; };
+		BAFCE0462907FE2C0019AAF1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE0452907FE2C0019AAF1 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BAD5976628FD42A500E2283A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAD5976928FD42A500E2283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAD5976B28FD42A500E2283A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFCE0452907FE2C0019AAF1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BAD5975D28FD42A300E2283A /* AppDelegate.swift */,
 				BAD5975F28FD42A300E2283A /* SceneDelegate.swift */,
 				BAD5976128FD42A300E2283A /* ViewController.swift */,
+				BAFCE0452907FE2C0019AAF1 /* FourthViewController.swift */,
 				BAD5976328FD42A300E2283A /* Main.storyboard */,
 				BAD5976628FD42A500E2283A /* Assets.xcassets */,
 				BAD5976828FD42A500E2283A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFCE0462907FE2C0019AAF1 /* FourthViewController.swift in Sources */,
 				BAD5976228FD42A300E2283A /* ViewController.swift in Sources */,
 				BAD5975E28FD42A300E2283A /* AppDelegate.swift in Sources */,
 				BAD5976028FD42A300E2283A /* SceneDelegate.swift in Sources */,
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -336,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
