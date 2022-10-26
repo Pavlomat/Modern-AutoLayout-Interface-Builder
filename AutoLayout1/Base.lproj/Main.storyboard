@@ -289,19 +289,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4H-y8-hwL" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="236"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="260"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather For Today" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cT-0l-8Xs" userLabel="Header">
-                                                <rect key="frame" x="8" y="8" width="398" height="30"/>
+                                                <rect key="frame" x="20" y="20" width="374" height="30"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngegg" translatesAutoresizingMaskIntoConstraints="NO" id="q8o-v5-Ym8" userLabel="ImageView">
-                                                <rect key="frame" x="8" y="46" width="398" height="100"/>
+                                                <rect key="frame" x="20" y="58" width="374" height="100"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMy-8r-FGb" userLabel="Description">
-                                                <rect key="frame" x="8" y="154" width="398" height="74"/>
+                                                <rect key="frame" x="20" y="166" width="374" height="74"/>
                                                 <string key="text">Today will be hot and sunny. If you are going out you will need a hat and sunglasses. There is a small chance of a heavy thunderstorm in the afternoon that could cause severe flooding so you may also want to take a boat. </string>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
@@ -321,6 +321,7 @@
                                             <constraint firstItem="NMy-8r-FGb" firstAttribute="leading" secondItem="W4H-y8-hwL" secondAttribute="leadingMargin" id="qSt-Dg-HZg"/>
                                             <constraint firstItem="3cT-0l-8Xs" firstAttribute="top" secondItem="W4H-y8-hwL" secondAttribute="topMargin" id="rIJ-lZ-1yG"/>
                                         </constraints>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="20" leading="20" bottom="20" trailing="20"/>
                                     </view>
                                 </subviews>
                                 <constraints>
